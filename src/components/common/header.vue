@@ -51,8 +51,8 @@ export default {
 <style>
 .ant-layout-header {
   line-height: 32px;
-  width: 100%;
-  min-width: 1200px;
+  width: 80%;
+  min-width: 1280px;
   margin: 0 auto;
 }
 .ant-layout-header {
