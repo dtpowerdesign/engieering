@@ -27,8 +27,8 @@ export default {
   color: #2c3e50;
 }
 .content {
-  width: 80%;
-  min-width: 1366px;
+  width: 100%;
+  min-width: 1200px;
   margin: 0 auto;
   display: flex;
 }
@@ -47,5 +47,11 @@ export default {
 }
 .main > div > p {
   font-size: 20px;
+  text-indent: 2em;
+}
+.main > div > img{
+  display: block;
+  width: 60%;
+  margin: 20px auto;
 }
 </style>
