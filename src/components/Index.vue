@@ -1,9 +1,7 @@
 <template>
     <div id="components-layout-demo-top">
         <v-layout class="layout">
-            <v-header>
-                <v-menu theme="dark" mode="horizontal" :data="menuData1" :style="{lineHeight: '64px'}"></v-menu>
-            </v-header>
+          <my-header></my-header>
         </v-layout>
     </div>
 </template>
@@ -11,7 +9,12 @@
 <style>
 </style>
 <script>
+import MyHeader from './common/header'
+
 export default {
+  components: {
+    MyHeader
+  },
   data () {
     return {
       menuData1: [
