@@ -5,7 +5,9 @@
     <my-sidebar></my-sidebar>
     <div class="main">
       <my-bread></my-bread>
-      <div></div>
+      <div>
+
+      </div>
     </div>
   </div>
 </div>
