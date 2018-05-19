@@ -2,14 +2,17 @@
   <div id="app">
     <my-header></my-header>
     <router-view/>
+    <my-footer></my-footer>
   </div>
 </template>
 
 <script>
 import MyHeader from '@/components/common/header'
+import MyFooter from '@/components/common/footer'
 export default {
   components: {
-    MyHeader
+    MyHeader,
+    MyFooter
   },
   name: 'App'
 }
@@ -35,5 +38,14 @@ export default {
 }
 .main > div {
   width: 100%;
+  text-align: left;
+  padding: 0 0 40px 0;
+}
+.main > div > h1,
+.main > div > h2 {
+  margin: 20px 0;
+}
+.main > div > p {
+  font-size: 20px;
 }
 </style>
