@@ -1,6 +1,6 @@
 <template>
-<div id="index">
-  <div>首页</div>
+<div id="innovation-display">
+  <div>创新展示</div>
 </div>
 </template>
 <script>
@@ -10,5 +10,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 </style>
+
+

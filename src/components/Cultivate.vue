@@ -1,6 +1,6 @@
 <template>
-<div id="index">
-  <div>首页</div>
+<div id="cultivate-work">
+  <div>培养工作</div>
 </div>
 </template>
 <script>
@@ -10,5 +10,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 </style>
+
+
