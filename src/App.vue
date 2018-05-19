@@ -23,4 +23,17 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+.content {
+  width: 80%;
+  min-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+}
+.main {
+  padding: 0 20px;
+  width: 82.5%
+}
+.main > div {
+  width: 100%;
+}
 </style>

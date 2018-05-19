@@ -1,15 +1,13 @@
 <template>
-  <v-header>
-    <div class="logo">工程训练中心</div>
-    <v-menu theme="dark" mode="horizontal" :data="menuData1" :style="{lineHeight: '64px'}"></v-menu>
-  </v-header>
+<div class="side-bar">
+  <v-menu style="width:240px" mode="inline" :data="sideBarData"></v-menu>
+</div>
 </template>
 <script>
 export default {
-  name: 'my-header',
   data () {
     return {
-      menuData1: [
+      sideBarData: [
         {
           name: '首页',
           selected: this.$route.name === '首页',
@@ -49,25 +47,10 @@ export default {
 }
 </script>
 <style>
-.ant-layout-header {
-  line-height: 32px;
-  width: 80%;
-  min-width: 1366px;
-  margin: 0 auto;
-}
-.ant-layout-header {
-  display: flex;
-  justify-content: center;
-}
-.ant-layout-header .logo {
-  /* width: 120px; */
-  height: 31px;
-  /* background: #333; */
-  border-radius: 6px;
-  margin: 16px 24px 16px 0;
-  float: left;
-  color: #fff;
-  font-size: 30px;
+.side-bar {
+  width: 17.5%;
+  max-width: 240px;
+  min-width: 240px;
 }
 </style>
 
