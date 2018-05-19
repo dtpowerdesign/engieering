@@ -51,6 +51,11 @@ export default {
   width: 17.5%;
   max-width: 240px;
   min-width: 240px;
+  font-size: 20px;
+}
+.side-bar .ant-menu-item > a,
+.side-bar .ant-menu-item > span {
+  font-size: 18px;
 }
 </style>
 
