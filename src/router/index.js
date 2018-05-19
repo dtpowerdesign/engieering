@@ -6,6 +6,7 @@ import TeachTeam from '@/components/Team'
 import Innovation from '@/components/Innovation'
 import TeachPlatform from '@/components/Teach'
 import CultivateWork from '@/components/Cultivate'
+import Not from '@/components/notFound'
 
 Vue.use(Router)
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/cultivate',
       name: '培养工作',
       component: CultivateWork
+    },
+    {
+      path: '/not',
+      name: 'not',
+      component: Not
     }
   ]
 })
