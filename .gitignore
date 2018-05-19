@@ -12,3 +12,10 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+# custom
+.idea
+package-lock.json
+yarn.lock
+git.sh
+/output
