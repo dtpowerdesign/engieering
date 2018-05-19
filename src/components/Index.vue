@@ -1,6 +1,7 @@
 <template>
-  <div id="index">
-  </div>
+<div id="index">
+  <div>首页</div>
+</div>
 </template>
 <script>
 export default {
