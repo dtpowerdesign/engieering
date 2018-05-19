@@ -1,6 +1,7 @@
 <template>
-  <div id="index">
-  </div>
+<div id="teach-team">
+  <div>师资队伍</div>
+</div>
 </template>
 <script>
 export default {
@@ -9,5 +10,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 </style>
+
+

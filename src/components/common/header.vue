@@ -6,27 +6,34 @@
 </template>
 <script>
 export default {
+  name: 'my-header',
   data () {
     return {
       menuData1: [
         {
-          name: '首页'
+          name: '首页',
+          href: '/index'
         },
         {
           name: '中心概况',
-          selected: true
+          // selected: true,
+          href: '/middle'
         },
         {
-          name: '师资队伍'
+          name: '师资队伍',
+          href: '/team'
         },
         {
-          name: '创新展示'
+          name: '创新展示',
+          href: '/innovation'
         },
         {
-          name: '教学平台'
+          name: '教学平台',
+          href: '/teach'
         },
         {
-          name: '培养工作'
+          name: '培养工作',
+          href: '/cultivate'
         },
         {
           name: '优秀校友'
@@ -37,6 +44,9 @@ export default {
 }
 </script>
 <style>
+.ant-layout-header {
+  line-height: 32px;
+}
 .ant-layout-header {
   display: flex;
   justify-content: center;
