@@ -5,11 +5,13 @@ import Vue from 'vue'
 import 'vue-beauty/package/style/vue-beauty.min.css'
 import App from './App'
 import router from './router'
-
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 // import components
 import vueBeauty from 'vue-beauty'
 Vue.use(vueBeauty)
 
+Vue.use(VueAwesomeSwiper)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
