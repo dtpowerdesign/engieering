@@ -2,10 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import IndexPage from '@/components/Index'
 import MiddleIntro from '@/components/MiddleIntro'
-import TeachTeam from '@/components/Team'
+import Teach from '@/components/Teach'
+import Foreign from '@/components/Foreign'
 import Innovation from '@/components/Innovation'
-import TeachPlatform from '@/components/Teach'
-import CultivateWork from '@/components/Cultivate'
+import Department from '@/components/Department'
+import Report from '@/components/Report'
 import Not from '@/components/notFound'
 import inform1 from '@/components/Index/inform1'
 import inform2 from '@/components/Index/inform2'
@@ -31,24 +32,29 @@ export default new Router({
       component: MiddleIntro
     },
     {
-      path: '/team',
-      name: '师资队伍',
-      component: TeachTeam
-    },
-    {
-      path: '/innovation',
-      name: '创新展示',
-      component: Innovation
+      path: '/department',
+      name: '机构设置',
+      component: Department
     },
     {
       path: '/teach',
-      name: '教学平台',
-      component: TeachPlatform
+      name: '教学体系',
+      component: Teach
     },
     {
-      path: '/cultivate',
-      name: '培养工作',
-      component: CultivateWork
+      path: '/innovation',
+      name: '创新实践',
+      component: Innovation
+    },
+    {
+      path: '/foreign',
+      name: '对外交流',
+      component: Foreign
+    },
+    {
+      path: '/report',
+      name: '年度报告',
+      component: Report
     },
     {
       path: '/inform1',

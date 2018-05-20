@@ -19,27 +19,29 @@ export default {
           href: '/middle'
         },
         {
-          name: '师资队伍',
-          selected: this.$route.name === '师资队伍',
-          href: '/team'
+          name: '机构设置',
+          selected: this.$route.name === '机构设置',
+          href: '/department'
         },
         {
-          name: '创新展示',
-          selected: this.$route.name === '创新展示',
-          href: '/innovation'
-        },
-        {
-          name: '教学平台',
-          selected: this.$route.name === '教学平台',
+          name: '教学体系',
+          selected: this.$route.name === '教学体系',
           href: '/teach'
         },
         {
-          name: '培养工作',
-          selected: this.$route.name === '培养工作',
-          href: '/cultivate'
+          name: '创新实践',
+          selected: this.$route.name === '创新实践',
+          href: '/innovation'
         },
         {
-          name: '优秀校友'
+          name: '对外交流',
+          selected: this.$route.name === '对外交流',
+          href: '/foreign'
+        },
+        {
+          name: '年度报告',
+          selected: this.$route.name === '年度报告',
+          href: '/report'
         }
       ]
     }
