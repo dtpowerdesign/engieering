@@ -19,7 +19,7 @@ import news3 from '@/components/Index/news3'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
   routes: [
     {
       path: '/',

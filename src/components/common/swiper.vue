@@ -15,7 +15,7 @@ export default {
   name: 'carrousel',
   data () {
     return {
-      imgArr: ['../../../static/img/swiper1.jpg', '../../../static/img/swiper2.jpg', '../../../static/img/swiper3.jpg', '../../../static/img/swiper4.jpg', '../../../static/img/swiper5.jpg', '../../../static/img/swiper6.jpg'],
+      imgArr: ['http://39.106.34.156:8080/zs/img/swiper1.jpg', 'http://39.106.34.156:8080/zs/img/swiper2.jpg', 'http://39.106.34.156:8080/zs/img/swiper3.jpg', 'http://39.106.34.156:8080/zs/img/swiper4.jpg', 'http://39.106.34.156:8080/zs/img/swiper5.jpg', 'http://39.106.34.156:8080/zs/img/swiper6.jpg'],
       swiperOption: {
         slidesPerView: 3,
         spaceBetween: 30,
