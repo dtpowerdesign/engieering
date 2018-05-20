@@ -31,6 +31,11 @@ export default {
           href: '/teach'
         },
         {
+          name: '创新实践',
+          selected: this.$route.name === '创新实践',
+          href: '/innovation'
+        },
+        {
           name: '对外交流',
           selected: this.$route.name === '对外交流',
           href: '/foreign'

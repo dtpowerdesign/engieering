@@ -4,6 +4,7 @@ import IndexPage from '@/components/Index'
 import MiddleIntro from '@/components/MiddleIntro'
 import Teach from '@/components/Teach'
 import Foreign from '@/components/Foreign'
+import Innovation from '@/components/Innovation'
 import Department from '@/components/Department'
 import Report from '@/components/Report'
 
@@ -31,6 +32,11 @@ export default new Router({
       path: '/teach',
       name: '教学体系',
       component: Teach
+    },
+    {
+      path: '/innovation',
+      name: '创新实践',
+      component: Innovation
     },
     {
       path: '/foreign',
